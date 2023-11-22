@@ -1,5 +1,5 @@
 [build]
-  base = "/opt/build/repo/oliveto-progetto"
+  base = "."
   command = "npm install && npm run build"
   environment = ["CI", "REACT_APP_SERVER_BASE_URL"]
   publish = "oliveto-progetto/build"
