@@ -1,4 +1,4 @@
 [build]
   command = "yarn run build"
-  publish = "path-relative-to-package-json/build"
+  publish = "/opt/build/repo/build"
   environment = { NODE_VERSION = "14", YARN_VERSION = "1.22.19" }
