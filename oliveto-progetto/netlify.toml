@@ -1,4 +1,3 @@
 [build]
-command = "npm install && npm run build"
-publish: "oliveto-progetto/build""
-
+  command = "npm install && npm run build"
+  publish = "oliveto-progetto/build"
