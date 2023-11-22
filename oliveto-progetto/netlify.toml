@@ -1,4 +1,4 @@
 [build]
-  command = "cd oliveto-progetto && npm install && npm run build"
+  command = "npm install && npm run build"
   publish = "oliveto-progetto/build"
-  environment = { CI = "false" }
+  environment = { CI = "false", REACT_APP_SERVER_BASE_URL = "Il_tuo_URL_del_server" }
