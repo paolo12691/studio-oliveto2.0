@@ -1,3 +1,4 @@
 [build]
 command = "npm install && npm run build"
-publish = "/opt/build/repo/oliveto-progetto/oliveto-progetto/build"
+publish: oliveto-progetto/build
+
